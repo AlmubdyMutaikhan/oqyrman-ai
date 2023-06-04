@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  min-height: 100vh;
+  z-index: 100;
+}
+.logscreen {
+  background: linear-gradient(180deg, rgba(147, 147, 33, 0.2) 0%, rgba(137, 143, 27, 0.24) 51.56%, #000000 100%),url("./assets/login_screen.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.appheader{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.applogo {
+  height: 35vh;
+  margin-top: -3vh;
+  margin-bottom: -7vh;
+}
+.apptitle {
+  text-align: center;
+  font-family: 'Nova Square';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 3.4rem;
+  line-height: 4rem;
+}
+.appregister {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border-radius: 8px;
+  border: 1px solid var(--accentgreen);
+  width: 80%;
+  padding: 16px;
+
+
+  background-color: #232121;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: #d0d0d0;
+  text-decoration: none;
+
+  font-family: 'Metrophobic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 17px;
+
+  text-align: center;
+
+  /* Gray 4 */
+
+
+}
+
+.applogmain {
+  height: calc( 100vh - 8rem - 35vh);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.applogin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'Metrophobic';
+  font-size: 14px;
+  margin-top: 1em;
+  text-decoration: none;
+  color: #e8e8e8;
+
+}
+

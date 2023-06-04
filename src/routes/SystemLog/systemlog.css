@@ -1,0 +1,174 @@
+.systemlog {
+    background:linear-gradient(180deg, rgba(193, 121, 121, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.37) 92.89%),url("../../assets/systemlog.jpg") no-repeat center center;
+    background-size: cover;
+    max-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 2rem 1rem;
+}
+
+.systemlog-phase {
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: var(--accentwhite);
+    padding: 20px;
+}
+.logframe {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 16px;
+
+    background: rgba(63, 58, 58, 0.42);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+
+}
+
+.systemlog-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    border: 0;
+    width: 100%;
+    margin-bottom: 15px;
+
+    background: var(--accentwhite);
+    border-radius: 8px;
+
+
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #939999;
+
+}
+
+.emailbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.systemlog-btn {
+
+    align-items: center;
+    padding: 16px;
+    width: 100%;
+    border: 0;
+    /* Accent green */
+
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+
+    /* Gray 4 */
+
+    color: var(--accentgray);
+    text-decoration: none;
+
+
+    background: var(--accentwhite);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.btn-green {
+    background-color: var(--accentgreen);
+}
+.systemlog-passforgot {
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+
+    color: var(--accentgreen);
+}
+.systemlog-alternative {
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 32px;
+    margin-top: 25px;
+    width: 100%;
+    /* identical to box height */
+    text-align: center;
+
+    /* Gray 2 */
+
+    color: #939999;
+
+}
+
+.systemlog-signup {
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: var(--accentwhite);
+}
+.systemlog-types {
+    display: flex;
+    align-content: center;
+
+}
+.systemlog-typestitle {
+    position: relative;
+    width: calc(100% - 48px);
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    text-align: center;
+}
+.systemlog-agreement {
+    font-family: 'Metrophobic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 15px;
+    color: var(--accentwhite);
+}
+.sysreg {
+    padding: 6rem 1rem;
+}
